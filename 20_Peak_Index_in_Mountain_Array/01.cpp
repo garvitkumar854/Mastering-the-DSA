@@ -13,7 +13,18 @@ in this question we have Constraint: arr is guaranteed to be a mountain array.
 using namespace std;
 
 // Linear Search Approach {Do Self}
-
+int peakIndexInMountainArray(vector<int>& arr) {
+    int n = arr.size();
+    
+    // Check Peak Index from 2 element to end last element because of i-1 and i+1
+    for (int i = 1; i < n - 1; i++) {
+        if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+            return i; // Return the index of the peak
+        }
+    }
+    
+    return -1; // No peak found (invalid mountain array)
+}
 
 // Binary Search Approach
 /* 
