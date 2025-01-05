@@ -34,7 +34,7 @@ case 3: Mid/index i lies in decreasing slope, So Peak alwats exists in left side
 */
 
 int peakIndex(vector<int>& A){
-    int st = 0, end = A.size()-2;   // index, n-1 never will be the peak element.
+    int st = 1, end = A.size()-2;   // index, n-1 never will be the peak element.
     
     while(st <= end){
         int mid = st + (end-st)/2;
