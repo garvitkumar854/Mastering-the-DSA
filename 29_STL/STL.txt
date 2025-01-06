@@ -1,0 +1,35 @@
+C++ STL
+STL refers to Standard Template Library
+
+if We want to sort array.
+So we can write code from scratch or We can use STL Sort inbuild function.
+
+**STL Comes in 4 Parts**
+-> Containers
+-> Iterators
+-> Algorithms
+-> Functors
+
+--Containers--
+1. Vector {Dynamic Memory Allocation, Resize at Runtime}:
+vector<int> vec;
+vector<int> vec = {1,2};
+vector<int> vec(3,10);
+vector<int> vec2(vec1);
+
+---> Functions of Vectors (TC = O(1)):
+-> size & capacity
+-> push_back & pop_back
+-> emplace_back
+-> at() , or we can use "[]"
+-> front & back        {first & last element of vector}
+
+---> Costly Function (TC = O(n))
+-> erase        (use to erase an element from vector, by passing the Iterator) also erase a range. {function changes size of vec, not capacity}
+-> insert       (to insert an element at specific position){vec.insert(pos, val)}
+-> clear
+-> empty        (check the vector is empty or not)
+
+--Iterators--           {Imagine it like a Pointer}
+-> vec.begin()          {return iterator which is pointing to exactly in Memory}
+-> vec.end()
