@@ -1,10 +1,14 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <list>         // Header File for Lists
+#include <list>         
 #include <deque>
 #include <stack>
 #include <queue>
+#include <map>
+#include <unordered_map>
+#include <set>
+#include <unordered_set>
 using namespace std;
 int main(){
     // Vector
@@ -65,7 +69,6 @@ int main(){
     // size, erase, clear, begin, end, rbegin, rend, insert, front, back {same functions as for vectors}
     // Major Diff: Vector implemented as a Dynamic Array, list as a doubly linked list
 
-
     // Deque {Double Ended Queue}
     deque<int> deq = {2,4,6,8};
     // same functions as list
@@ -109,6 +112,76 @@ int main(){
     cout << "\nSize of Stack 2: " << st_1.size() << "\nSize of Stack 3: " << st_2.size() << endl;
 
     // Queue
+    queue<int> q;
+    q.push(1);
+    q.push(5);
+    q.push(0);
+    while(!q.empty()){
+        cout << q.front() << " ";
+        q.pop();
+    }
+    cout << endl;
+
+    priority_queue<int, vector<int>, greater<int>> pq;          // makes reverse priority queue
+    pq.push(5);
+    pq.push(10);
+    pq.push(4);
+    while(!pq.empty()){
+        cout << pq.top() << " ";                // Returns the highest priority / largest element first
+        pq.pop();                               // Pop the largest then 2nd max, then 3rd max
+    }
+    cout << endl;
+
+    map<string, int> m;
+    m["laptop"] = 56000;
+    m["headphones"] = 1650;
+    m["watch"] = 6500;
+    m["iPhone"] = 75000;
+    for(auto i: m){
+        cout << i.first << ": " << i.second << endl;                // automatic sort in ascending order of keys.
+    }
+
+    m.insert({"camera",45000});             // need to make object in curly brackets in insert function.
+    // m.emplace("camera",45000)
+    cout << "Count Keys which has = laptop: " << m.count("laptop") << endl;
+    m.erase("watch");                   // remove key and value from map
+    if(m.find("camera") != m.end()){            // Used to find key, value pair in Map,if it is found we get iterator of it otherwise m.end()
+        cout << "Camera is Found !\n";
+    } else{
+        cout << "Not Found !\n";
+    }
+
+    // Multi Map
+    multimap<string, int> multi_m;
+    multi_m.emplace("laptop",10);
+    multi_m.emplace("laptop",20);
+    multi_m.erase("laptop");              // Delete All keys of laptop
+    multi_m.erase(m.find("laptop"));              // Delete 1 Value of laptop by using the Iterator in erase()
+    
+    // Unordered Map
+    unordered_map<string, int> u_map;           // Don't store Duplicate Keys
+    u_map.emplace("tv",100);
+    u_map.emplace("laptop",200);
+    cout << "Unordered Map: \n";
+    for(auto u: u_map){
+        cout << u.first << ": " << u.second << endl;
+    }
+
+    // Sets
+    set<int> a_set;
+    a_set.insert(101);
+    a_set.insert(102);
+    a_set.insert(101);              // Don't Repeat in Sets and in Output
+
+    for(auto val: a_set){
+        cout << val << ",";
+    }
+    cout << "\nSize of Set: " << a_set.size() << endl;
+    cout << *(a_set.lower_bound(100)) << endl;             // Returns 101 Because 100 not found.
+    cout << *(a_set.upper_bound(101)) << endl;             // Returns Value > 101. {not =}
+    
+    multiset<int> multi_set;
+    unordered_set<int> unorder_set;                         // Random Order {Unsorted Order {concept of lower/upper bound not exists}}
 
     return 0;
 } 

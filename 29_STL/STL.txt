@@ -10,6 +10,7 @@ So we can write code from scratch or We can use STL Sort inbuild function.
 -> Algorithms
 -> Functors
 
+------ Containers ------
 ---- Sequencial Containers ----
 
 1. Vector {Dynamic Memory Allocation, Resize at Runtime}:
@@ -64,3 +65,38 @@ stack<int> s;
 queue<int> q;
 ---> Functions of queue
 same as Stack + front() instead of top()
+
+3. Priority Queue   {Special Data Structure, internally use MaxHeap or MinHeap {Binary Tree}}
+priority_queue<int> pq;
+priority_queue<int, vector<int>, greater<int>> pq;      {use to smallest element comes on the top} {"greater" is a Functor(Function Object)}
+---> Functions of Priority Queue
+-> push, emplace
+-> top & pop
+-> size & empty
+
+4. Map  {specifically used to store key, value} {map has unqiue keys, there can't be a duplicate key}
+map<string, int> m;
+m[key] = value;             {to insert or change the values}
+---> Functions of Map
+-> insert, emplace
+-> count, erase
+-> find, size, empty
+
+Other types of Maps
+-> Multi Map:   (Store multi keys{duplicates}, we can't use "[]" Notation)  {multimap<int,int> mm}
+-> Unordered Map:   (Store Data in Random Order)    {need to include header file}   {unordered_map<string, int> um}
+
+5. Set  {Store Unique Values in a Sorted Order}
+set<int> a_set;
+---> Functions are same as Map;
+other extra functions: lower_bound(4)    // Return 4 if found, otherwise return just large value than 4 {use * to derefrence}
+                    upper_bound()        // Value should be greater than key, not equal to.
+
+-> Multi Set: multiset<int> m_set       {Store Multiple Elements}
+-> Unordered Set:       unordered_set   {Store Values in Unordered}
+
+------ Algorithms ------
+1. Sorting
+sort(arr, arr+n)
+sort(arr, arr+n, greater<int>())
+sort(v.begin(), v.end())
