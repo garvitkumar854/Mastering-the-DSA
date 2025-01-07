@@ -10,13 +10,13 @@ So we can write code from scratch or We can use STL Sort inbuild function.
 -> Algorithms
 -> Functors
 
---Containers--
+---- Sequencial Containers ----
+
 1. Vector {Dynamic Memory Allocation, Resize at Runtime}:
 vector<int> vec;
 vector<int> vec = {1,2};
 vector<int> vec(3,10);
 vector<int> vec2(vec1);
-
 ---> Functions of Vectors (TC = O(1)):
 -> size & capacity
 -> push_back & pop_back
@@ -30,6 +30,37 @@ vector<int> vec2(vec1);
 -> clear
 -> empty        (check the vector is empty or not)
 
---Iterators--           {Imagine it like a Pointer}
+
+2. List {Sequencial Container like Vectors, internally implemented as Doubly Linked List}
+list<int> L = {1,2,3};
+---> Functions of List
+-> push_back & push_front
+-> emplace_back & emplace_front
+-> pop_back & pop_front
+
+3. Deque: Double Ended Queue: {imagine it just like a list}
+There are two deque in programming
+1. Deque: Double Ended Queue.
+2. Dequeue: Pop any element from Queue.
+
+---- Iterators ----     {Imagine it like a Pointer}
 -> vec.begin()          {return iterator which is pointing to exactly in Memory}
--> vec.end()
+-> vec.end()            {points not to n-1, it points to next location of n-1 (garbage data can be store)}
+
+---- Pair ----          {"Don't need to include anything"}
+pair<int, int> p = {3,5};
+pair<char, int> p = {'a',1};
+
+---- Non Sequencial Containers ----
+1. Stack {last in first out Data Structure}
+stack<int> s;
+---> Functions of Stack
+-> push, emplace
+-> top & pop
+-> size & empty
+-> swap
+
+2. Queue {first in first out Data Structure}
+queue<int> q;
+---> Functions of queue
+same as Stack + front() instead of top()
