@@ -100,3 +100,25 @@ other extra functions: lower_bound(4)    // Return 4 if found, otherwise return 
 sort(arr, arr+n)
 sort(arr, arr+n, greater<int>())
 sort(v.begin(), v.end())
+
+2. Reverse
+reverse(v.begin(), v.end());
+
+3. Next Permutation
+next_permutation(v.begin(), v.end());
+
+4. swap, min, max
+
+5. Max & Min Element
+max_element(v.begin(), v.end());
+min_element(v.begin(), v.end());
+
+6. Binary Search
+binary_search(v.begin(), v.end(), target);
+
+7. Count Set Bits           {Not Frequently Used in Companies Practically}  {Can used in Competitive Programming}
+__builtin_popcount()
+__builtin_popcountl()
+__builtin_popcountll()
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
