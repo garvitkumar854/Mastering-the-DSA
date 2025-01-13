@@ -30,5 +30,16 @@ E.g: n = 50     {Count the Prime Numbers from 1 to N}
 E.g: n = 3586   { Work which We will going to do are:
                 Count of Digits, Sum of Digits, Print Digits }
 n = Base/Radix: 10
+Time Complexity:O(log₁₀n)
+
+
+3. Armstrong Number:
+Armstrong Number is a number that is equal to the sum of cubes of its digits.
+
+E.g: 153, 371, 1
+
+1³ + 5³ + 3³ = 1 + 125 + 27 = 153
+3³ + 7³ + 1³ = 27 + 343 + 1 = 371
+1³ = 1
 
 
