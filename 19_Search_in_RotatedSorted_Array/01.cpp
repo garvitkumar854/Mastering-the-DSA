@@ -10,6 +10,7 @@ rotated = arr = [3,4,5,6,7,0,1,2],      tar = 0
 using namespace std;
 
 // Brute Force Approach (Linear Search Approach {TC = O(n)})
+
 /* In this we apply Binary Search on Sorted part of the Array either Left or Right. in this case we know our left part is sorted = {3,4,5} 
 Important: We have to check Sorted Area in Array, by checking mid is > or < than start or end.
 */
