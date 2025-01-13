@@ -1,0 +1,34 @@
+===== Main Topic to Cover =====
+• Prime Logic & Sieve of Eratosthenes
+• GCD with Euclid's Algorithm & LCM
+• Digits in a Number
+• Reverse a num 
+• Check Palindrome
+• Armstrong Logic
+• Modular Arithmetics
+• Fast Exponentiation
+
+1. Prime Logic & Sieve of Eratosthenes
+■ Prime Numbers:     n → [2 to √n]
+                    n = 16 →  [2 to 4]      --> Non Prime Number
+
+■ Sieve of Eratosthenes 
+E.g: n = 50     {Count the Prime Numbers from 1 to N}
+
+        2       3       4       5       6       7       8       9       1 0
+1 1     1 2     1 3     1 4     1 5     1 6     1 7     1 8     1 9     2 0
+2 1     2 2     2 3     2 4     2 5     2 6     2 7     2 8     2 9     3 0
+3 1     3 2     3 3     3 4     3 5     3 6     3 7     3 8     3 9     4 0
+4 1     4 2     4 3     4 4     4 5     4 6     4 7     4 8     4 9     5 0
+
+○ Assume All Numbers are Primes.
+○ Discard the Numbers which is Divisible by 2 {1 position} because 2 is valid divisor for all that numbers.
+○ No Repeat the Discard Process till all valid divisors will not discarded.
+○ We have Received the Prime Number Count = 15.
+
+2. Digits in a Number
+E.g: n = 3586   { Work which We will going to do are:
+                Count of Digits, Sum of Digits, Print Digits }
+n = Base/Radix: 10
+
+
