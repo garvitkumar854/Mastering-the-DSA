@@ -1,4 +1,4 @@
-===== Main Topic to Cover =====
+========= Main Topic to Cover =========
 • Prime Logic & Sieve of Eratosthenes
 • GCD with Euclid's Algorithm & LCM
 • Digits in a Number
@@ -8,7 +8,7 @@
 • Modular Arithmetics
 • Fast Exponentiation
 
-1. Prime Logic & Sieve of Eratosthenes
+1. ---- Prime Logic & Sieve of Eratosthenes ---- 
 ■ Prime Numbers:     n → [2 to √n]
                     n = 16 →  [2 to 4]      --> Non Prime Number
 
@@ -26,14 +26,14 @@ E.g: n = 50     {Count the Prime Numbers from 1 to N}
 ○ No Repeat the Discard Process till all valid divisors will not discarded.
 ○ We have Received the Prime Number Count = 15.
 
-2. Digits in a Number
+2. ---- Digits in a Number ---- 
 E.g: n = 3586   { Work which We will going to do are:
                 Count of Digits, Sum of Digits, Print Digits }
 n = Base/Radix: 10
 Time Complexity:O(log₁₀n)
 
 
-3. Armstrong Number:
+3. ---- Armstrong Number ---- 
 Armstrong Number is a number that is equal to the sum of cubes of its digits.
 
 E.g: 153, 371, 1
@@ -43,7 +43,7 @@ E.g: 153, 371, 1
 1³ = 1
 
 
-4. GCD with Euclid's Algorithm & LCM
+4. ---- GCD with Euclid's Algorithm & LCM ---- 
 ■ GCD / HCF {Greatest Common Divisor, Highest Common Factor} 
 a = 20, b = 28
 
@@ -75,7 +75,7 @@ E.g: gcd(20,28) → gcd(20, 8) → gcd(12, 8) → gcd(4, 8) → gcd(4, 4) → gc
 a*b = gcd(a,b) * lcm(a,b)
 lcm = a*b / gcd(a,b)
 
-5. Reverse a Number
+5. ---- Reverse a Number ---- 
 ○ Reverse a Number And Make a Completely New Number.
 E.g: num = 4537
 4537 = 7354 → 7*10³ + 3*10² + 5*10¹ + 4*10⁰
@@ -87,6 +87,29 @@ Constraint in Question: if reverse num causes the value to go outside the signed
                         32-bit integer range [-2³¹, 2³¹ - 1], then return 0;
                         means revNum > INT_MAX, revNum < INT_MIN
 
-6. Check Palindrome
+6. ---- Check Palindrome ----
 ■ Palindrome Number: n should be > 0, E.g: 12321
 ○ Reverse of Palindrome = that Number
+
+7. ---- Modular Arithmetics ---- 
+Generally We solve Many Questions on Platfroms and in Competitive Programming,
+There is an Special Condition which is given in Some Questions.
+For Example: Leetcode: 850 {Rectangle Area II}
+last line of Qs: Return the total area. Since the answer may be too large, return it modulo 10⁹ + 7 {Prime Number}
+ans % (10⁹ + 7)
+that is to prevent from the overflow condition of integer.
+
+■ Properties:
+(x + y) % m = x % m + y % m
+(x - y) % m = x % m - y % m
+(x . y) % m = x % m . y % m
+
+x = 8, y = 9 , m = 3
+(8 + 9) % 3 = 17 % 3 = 3
+(8 % 3) + 9 % 3 = 3 + 0 = 3
+
+((x%m) % m) % m ... → Final Answer Always Inner Modulo (x % m)
+100 % 3 = 1
+((100 % 3) % 3 ) % 3.. = 1
+
+8. ---- Fast Exponentiation / Power Exponentiation / Binary Exponentiation ---- 
