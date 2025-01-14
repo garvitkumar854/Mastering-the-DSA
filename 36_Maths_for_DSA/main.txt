@@ -2,7 +2,7 @@
 • Prime Logic & Sieve of Eratosthenes
 • GCD with Euclid's Algorithm & LCM
 • Digits in a Number
-• Reverse a num 
+• Reverse a Number 
 • Check Palindrome
 • Armstrong Logic
 • Modular Arithmetics
@@ -43,3 +43,50 @@ E.g: 153, 371, 1
 1³ = 1
 
 
+4. GCD with Euclid's Algorithm & LCM
+■ GCD / HCF {Greatest Common Divisor, Highest Common Factor} 
+a = 20, b = 28
+
+2 | 20                  2 | 28                  20 = 2*2*5*1
+2 | 10                  2 | 14                  28 = 2*2*7*1
+5 | 5                   7 | 7                   GCD = 4
+1 | 1                   1 | 1
+  | 0                     | 0
+
+○ We Search Factors of both Numbers in a Range
+○ Worst Case GCD = 1
+○ Max GCD = 20  {when a = 20, b = 28, min(a,b)}
+○ a == 0 → b, b == 0 → a, a==b → a/b
+○ Time Complexity: O(min(a,b))
+
+■ Euclid's Algorithm
+○ gcd(a,b):     gcd(a-b, b), a>b
+                gcd(a, b-a), b>a
+
+E.g: gcd(20,28) → gcd(20, 8) → gcd(12, 8) → gcd(4, 8) → gcd(4, 4) → gcd(0, 4)
+                                        a == 0 → b, b == 0 → a, a==b → a/b
+
+○ Optimization: 20 - 8 = 12 - 8 = 4
+                20 % 8 = 4
+                gcd(a%b, b)     , a>b
+                gcd(a, b%a)     , b>a
+
+■ LCM {Lowest Common Multiple}
+a*b = gcd(a,b) * lcm(a,b)
+lcm = a*b / gcd(a,b)
+
+5. Reverse a Number
+○ Reverse a Number And Make a Completely New Number.
+E.g: num = 4537
+4537 = 7354 → 7*10³ + 3*10² + 5*10¹ + 4*10⁰
+                7000 + 300 + 50 + 4
+                7000 + 300 + 54
+                7000 + 354 
+                7354
+Constraint in Question: if reverse num causes the value to go outside the signed
+                        32-bit integer range [-2³¹, 2³¹ - 1], then return 0;
+                        means revNum > INT_MAX, revNum < INT_MIN
+
+6. Check Palindrome
+■ Palindrome Number: n should be > 0, E.g: 12321
+○ Reverse of Palindrome = that Number
