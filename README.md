@@ -1,4 +1,4 @@
-# DSA Repository
+# Data Structures And Algorithms
 
 Welcome to my Data Structures and Algorithms (DSA) repository! This repository contains a collection of concepts, practice questions, and homework related to various DSA topics in C++. Each topic is organized into its respective folder for easy navigation.
 
