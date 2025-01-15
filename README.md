@@ -6,7 +6,7 @@ Welcome to my Data Structures and Algorithms (DSA) repository! This repository c
 
 - [Introduction](#introduction)
 - [Topics Covered](#topics-covered)
-  - [1. Variables, Datatypes & Operators](#1-variables-datatypes-operators)
+  - [1. Variables, Datatypes & Operators](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/README1.md#1-variables-datatypes-operators)
   - [2. Conditional Statements & Loops](#2-conditional-statements-loops)
   - [3. Patterns](#3-patterns)
   - [4. Functions](#4-functions)
