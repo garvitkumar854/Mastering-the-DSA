@@ -57,3 +57,48 @@ This repository aims to help in mastering DSA concepts and solving related probl
 
 ## Folder Structure
 
+
+## Topics Covered
+
+### 1. Variables, Datatypes & Operators
+- [Concept Files](https://github.com/<username>/<repo-name>/tree/main/Variables_Datatypes_Operators/Concept)
+  - [01.cpp](https://github.com/<username>/<repo-name>/blob/main/Variables_Datatypes_Operators/Concept/01.cpp)
+  - [02.cpp](https://github.com/<username>/<repo-name>/blob/main/Variables_Datatypes_Operators/Concept/02.cpp)
+- [Questions](https://github.com/<username>/<repo-name>/tree/main/Variables_Datatypes_Operators/Questions)
+  - [Qs1.cpp](https://github.com/<username>/<repo-name>/blob/main/Variables_Datatypes_Operators/Questions/Qs1.cpp)
+  - [Qs2.cpp](https://github.com/<username>/<repo-name>/blob/main/Variables_Datatypes_Operators/Questions/Qs2.cpp)
+- [Homework](https://github.com/<username>/<repo-name>/tree/main/Variables_Datatypes_Operators/Homework)
+  - [Hw1.cpp](https://github.com/<username>/<repo-name>/blob/main/Variables_Datatypes_Operators/Homework/Hw1.cpp)
+  - [Hw2.cpp](https://github.com/<username>/<repo-name>/blob/main/Variables_Datatypes_Operators/Homework/Hw2.cpp)
+
+### 2. Conditional Statements & Loops
+- [Concept Files](https://github.com/<username>/<repo-name>/tree/main/ConditionalStatements_Loops/Concept)
+  - [01.cpp](https://github.com/<username>/<repo-name>/blob/main/ConditionalStatements_Loops/Concept/01.cpp)
+  - [02.cpp](https://github.com/<username>/<repo-name>/blob/main/ConditionalStatements_Loops/Concept/02.cpp)
+- [Questions](https://github.com/<username>/<repo-name>/tree/main/ConditionalStatements_Loops/Questions)
+  - [Qs1.cpp](https://github.com/<username>/<repo-name>/blob/main/ConditionalStatements_Loops/Questions/Qs1.cpp)
+  - [Qs2.cpp](https://github.com/<username>/<repo-name>/blob/main/ConditionalStatements_Loops/Questions/Qs2.cpp)
+- [Homework](https://github.com/<username>/<repo-name>/tree/main/ConditionalStatements_Loops/Homework)
+  - [Hw1.cpp](https://github.com/<username>/<repo-name>/blob/main/ConditionalStatements_Loops/Homework/Hw1.cpp)
+  - [Hw2.cpp](https://github.com/<username>/<repo-name>/blob/main/ConditionalStatements_Loops/Homework/Hw2.cpp)
+
+### 3. Patterns
+- [Concept Files](https://github.com/<username>/<repo-name>/tree/main/Patterns/Concept)
+  - [01.cpp](https://github.com/<username>/<repo-name>/blob/main/Patterns/Concept/01.cpp)
+  - [02.cpp](https://github.com/<username>/<repo-name>/blob/main/Patterns/Concept/02.cpp)
+- [Questions](https://github.com/<username>/<repo-name>/tree/main/Patterns/Questions)
+  - [Qs1.cpp](https://github.com/<username>/<repo-name>/blob/main/Patterns/Questions/Qs1.cpp)
+  - [Qs2.cpp](https://github.com/<username>/<repo-name>/blob/main/Patterns/Questions/Qs2.cpp)
+- [Homework](https://github.com/<username>/<repo-name>/tree/main/Patterns/Homework)
+  - [Hw1.cpp](https://github.com/<username>/<repo-name>/blob/main/Patterns/Homework/Hw1.cpp)
+  - [Hw2.cpp](https://github.com/<username>/<repo-name>/blob/main/Patterns/Homework/Hw2.cpp)
+
+<!-- Repeat similarly for other topics -->
+
+## Contributing
+
+Feel free to contribute to this repository by submitting pull requests, reporting issues, or suggesting improvements.
+
+## License
+
+This repository is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
