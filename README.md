@@ -63,7 +63,10 @@ Before contributing, kindly review the Contribution Guidelines (add link if appl
 ## License
 
 This project is licensed under the [MIT License](LICENSE).  
-You are free to use, modify, and distribute this software for personal or commercial purposes, provided that proper credit is given to the original author.  
+Copyright © 2024 Garvit Kumar.
 
-For more details, please refer to the [LICENSE](LICENSE) file in this repository.
+You are free to use, modify, and distribute the content in this repository for personal or commercial purposes, provided that proper credit is given to the original author.  
+
+For more details, refer to the [LICENSE](LICENSE) file in this repository.
+
 
