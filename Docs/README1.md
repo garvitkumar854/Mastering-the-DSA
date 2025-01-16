@@ -1,6 +1,6 @@
 # 1. Variables, Datatypes & Operators
 
-## This folder introduces the fundamental concepts of programming, focusing on Variables, Datatypes, and Operators. In this section, you'll learn how to declare and initialize variables, which are essential for storing and manipulating data. You'll explore different datatypes, such as integers, floats, characters, and more, to understand the types of values variables can hold and how they affect operations. The operators section covers essential tools like arithmetic operators (e.g., +, -, *, /), relational operators (e.g., ==, !=), and logical operators (e.g., &&, ||), which are used to perform operations on variables and values. Mastery of these basic topics is crucial for tackling more advanced programming concepts and building robust software.
+This folder introduces the fundamental concepts of programming, focusing on Variables, Datatypes, and Operators. In this section, you'll learn how to declare and initialize variables, which are essential for storing and manipulating data. You'll explore different datatypes, such as integers, floats, characters, and more, to understand the types of values variables can hold and how they affect operations. The operators section covers essential tools like arithmetic operators (e.g., +, -, *, /), relational operators (e.g., ==, !=), and logical operators (e.g., &&, ||), which are used to perform operations on variables and values. Mastery of these basic topics is crucial for tackling more advanced programming concepts and building robust software.
 
 ## Table of Contents
 
