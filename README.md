@@ -27,7 +27,7 @@ Welcome to my Data Structures and Algorithms (DSA) repository! This repository c
   - [19. Search in Rotated Sorted Array](#19-search-in-rotated-sorted-array)
   - [20. Peak Index in Mountain Array](#20-peak-index-in-mountain-array)
   - [21. Single Element in Sorted Array](#21-single-element-in-sorted-array)
-  - [22. Book Allocation](#22-book-allocation)
+  - [22. Book Allocation Problem](#22-book-allocation)
   - [23. Painter's Partition Problem](#23-painters-partition-problem)
   - [24. Aggressive Cows](#24-aggressive-cows)
   - [25. Sorting Algorithms](#25-sorting-algorithms)
@@ -48,16 +48,22 @@ Welcome to my Data Structures and Algorithms (DSA) repository! This repository c
 
 ## Introduction
 
-This repository aims to help in mastering DSA concepts and solving related problems. It is structured to make learning easier by breaking down concepts and problems into digestible parts. Each topic contains:
+This repository is your one-stop resource for mastering Data Structures and Algorithms (DSA). Whether you're a beginner taking your first steps or an advanced learner refining your skills, this repository covers everything you need to excel in DSA concepts. Organized into structured topics with comprehensive explanations, code examples, and problem-solving techniques, it’s designed to help you build a strong foundation and tackle real-world coding challenges. Dive in, explore the concepts, and let’s embark on the journey to mastering DSA together!
 
+Each topic contains:
 - Concept files.
 - Practice question files.
 - Homework question files.
 
 ## Contributing
 
-Feel free to contribute to this repository by submitting pull requests, reporting issues, or suggesting improvements.
+Contributions are always welcome! If you have suggestions for improving the content, fixing errors, or adding new topics, feel free to open an issue or submit a pull request. Please ensure your contributions align with the structure and style of the repository.
+Before contributing, kindly review the Contribution Guidelines (add link if applicable) to maintain consistency and quality. Let’s work together to make this repository an invaluable resource for the DSA community!
 
 ## License
 
-This repository is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this software for personal or commercial purposes, provided that proper credit is given to the original author.  
+
+For more details, please refer to the [LICENSE](LICENSE) file in this repository.
+
