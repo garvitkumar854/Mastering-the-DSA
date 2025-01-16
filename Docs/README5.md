@@ -5,7 +5,7 @@ The Binary Number System folder explores the foundational concept of binary numb
 ## Table of Contents
 
 - [Concept Files](#concept-files)
-  - [01.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/05_Binary_Number_System/01.cpp)
-  - [02.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/05_Binary_Number_System/02.2pp)
+  - [Introduction](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/05_Binary_Number_System/01.cpp)
+  - [Binary To Decimal](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/05_Binary_Number_System/02.2pp)
 
 #

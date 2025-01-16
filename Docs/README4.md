@@ -5,8 +5,8 @@ The Functions folder introduces the concept of functions, which help organize co
 ## Table of Contents
 
 - [Concept Files](#concept-files)
-  - [01.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/04_Functions/01.cpp)
-  - [02.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/04_Functions/02.cpp)
+  - [Introduction](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/04_Functions/01.cpp)
+  - [Pass By Value](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/04_Functions/02.cpp)
 - [Questions](#questions)
   - [Qs1.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/04_Functions/Qs1.cpp)
   - [Qs2.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/04_Functions/Qs2.cpp)
