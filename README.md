@@ -27,7 +27,7 @@ Welcome to my Data Structures and Algorithms (DSA) repository! This repository c
   - [19. Search in Rotated Sorted Array](Docs/README19.md)
   - [20. Peak Index in Mountain Array](Docs/README20.md)
   - [21. Single Element in Sorted Array](Docs/README21.md)
-    - [22. Book Allocation Problem](Docs/README22.md)
+  - [22. Book Allocation Problem](Docs/README22.md)
   - [23. Painter's Partition Problem](Docs/README23.md)
   - [24. Aggressive Cows](Docs/README24.md)
   - [25. Sorting Algorithms](Docs/README25.md)
