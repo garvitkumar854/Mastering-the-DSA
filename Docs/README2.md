@@ -5,9 +5,9 @@ This folder focuses on two core concepts in programming: Conditional Statements 
 ## Table of Contents
 
 - [Concept Files](#concept-files)
-  - [01.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/01.cpp)
-  - [02.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/02.cpp)
-  - [03.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/03.cpp)
+  - [If - else if - else](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/01.cpp)
+  - [Ternary Statement](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/02.cpp)
+  - [Loops](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/03.cpp)
 - [Questions](#questions)
   - [Qs1.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/Qs1.cpp)
   - [Qs2.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/Qs2.cpp)
