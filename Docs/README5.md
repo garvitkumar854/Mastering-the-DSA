@@ -1,28 +1,11 @@
 # 5. Binary Number System
 
+The Binary Number System folder explores the foundational concept of binary numbers, which form the basis of all computing. In this section, you'll learn about the binary numeral system, which uses only two digits, 0 and 1, to represent values. You’ll dive into binary arithmetic, conversions between binary and decimal numbers, and learn how computers use binary data to perform calculations and store information. Understanding binary is crucial for grasping low-level computing operations, memory storage, and number representation in algorithms.
+
 ## Table of Contents
 
 - [Concept Files](#concept-files)
-  - [01.cpp](1_Variables_Datatypes_Operators/Concept/01.cpp)
-  - [02.cpp](1_Variables_Datatypes_Operators/Concept/02.cpp)
-- [Questions](#questions)
-  - [Qs1.cpp](1_Variables_Datatypes_Operators/Questions/Qs1.cpp)
-  - [Qs2.cpp](1_Variables_Datatypes_Operators/Questions/Qs2.cpp)
-- [Homework](#homework)
-  - [Hw1.cpp](1_Variables_Datatypes_Operators/Homework/Hw1.cpp)
-  - [Hw2.cpp](1_Variables_Datatypes_Operators/Homework/Hw2.cpp)
+  - [01.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/05_Binary_Number_System/01.cpp)
+  - [02.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/05_Binary_Number_System/02.2pp)
 
-## Concept Files
-
-- [01.cpp](1_Variables_Datatypes_Operators/Concept/01.cpp)
-- [02.cpp](1_Variables_Datatypes_Operators/Concept/02.cpp)
-
-## Questions
-
-- [Qs1.cpp](1_Variables_Datatypes_Operators/Questions/Qs1.cpp)
-- [Qs2.cpp](1_Variables_Datatypes_Operators/Questions/Qs2.cpp)
-
-## Homework
-
-- [Hw1.cpp](1_Variables_Datatypes_Operators/Homework/Hw1.cpp)
-- [Hw2.cpp](1_Variables_Datatypes_Operators/Homework/Hw2.cpp)
+#
