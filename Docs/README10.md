@@ -23,5 +23,5 @@ Output:
 ## Table of Contents
 
 - [Concept Files](#concept-files)
-  - [01.cpp](/10_Pair_and_Sum//01.cpp)
+  - [Problem](/10_Pair_and_Sum//01.cpp)
 

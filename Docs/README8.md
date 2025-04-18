@@ -12,12 +12,13 @@ It’s like an expandable array that manages memory on its own.
 ## Table of Contents
 
 - [Concept Files](#concept-files)
-  - [01.cpp](/08_Vectors/01.cpp)
-  - [02.cpp](/08_Vectors/02.cpp)
-  - [03.cpp](/08_Vectors/03.cpp)
+  - [Introduction](/08_Vectors/01.cpp)
+  - [Vector Functions](/08_Vectors/02.cpp)
+  - [Allocations](/08_Vectors/03.cpp)
 - [Questions](#questions)
   - [Qs1.cpp](/08_Vectors/Qs1.cpp)
 - [Homework](#homework)
   - [Hw1.cpp](/08_Vectors/Hw1.cpp)
   - [Hw2.cpp](/08_Vectors/Hw2.cpp)
 
+j
