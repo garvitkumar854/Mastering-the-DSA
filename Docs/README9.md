@@ -1,28 +1,19 @@
 # 9. Maximum Sub Array Sum
 
+You are given an array of integers which may include positive, negative, or zero values.
+Your task is to find the contiguous subarray (a group of elements that are next to each other) which has the maximum sum, and return that sum.
+
+🧠 What is a Subarray?
+A **subarray** is a part of the array with consecutive elements.
+For example, in `[1, 2, 3, 4]`, valid subarrays include:
+- `[1, 2]`
+- `[3]`
+- `[2, 3, 4]`
+
+🔒 Constraints:
+- Array length ≥ 1
+- Can include negative numbers
+
 ## Table of Contents
-
 - [Concept Files](#concept-files)
-  - [01.cpp](1_Variables_Datatypes_Operators/Concept/01.cpp)
-  - [02.cpp](1_Variables_Datatypes_Operators/Concept/02.cpp)
-- [Questions](#questions)
-  - [Qs1.cpp](1_Variables_Datatypes_Operators/Questions/Qs1.cpp)
-  - [Qs2.cpp](1_Variables_Datatypes_Operators/Questions/Qs2.cpp)
-- [Homework](#homework)
-  - [Hw1.cpp](1_Variables_Datatypes_Operators/Homework/Hw1.cpp)
-  - [Hw2.cpp](1_Variables_Datatypes_Operators/Homework/Hw2.cpp)
-
-## Concept Files
-
-- [01.cpp](1_Variables_Datatypes_Operators/Concept/01.cpp)
-- [02.cpp](1_Variables_Datatypes_Operators/Concept/02.cpp)
-
-## Questions
-
-- [Qs1.cpp](1_Variables_Datatypes_Operators/Questions/Qs1.cpp)
-- [Qs2.cpp](1_Variables_Datatypes_Operators/Questions/Qs2.cpp)
-
-## Homework
-
-- [Hw1.cpp](1_Variables_Datatypes_Operators/Homework/Hw1.cpp)
-- [Hw2.cpp](1_Variables_Datatypes_Operators/Homework/Hw2.cpp)
+  - [01.cpp](//09_Maximum_SubArray_Sum/01.cpp)

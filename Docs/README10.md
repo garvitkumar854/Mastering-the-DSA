@@ -1,28 +1,27 @@
 # 10. Pair and Sum
 
+You are given an array of integers and a target sum. Your task is to find all pairs of elements in the array that sum up to the given target. The pairs should consist of two numbers that add up to the target value.
+
+🔑 Key Points:
+- **Pair**: A pair is a combination of two numbers.
+- The elements should be from the same array, and each pair should consist of two distinct numbers.
+- We need to return all the pairs where their sum equals the given target sum.
+
+### 📌 Example:
+#### Input:
+```ini
+arr = [1, 5, 7, -1, 5], target = 6
+```
+#### Output:
+Output:
+```scss
+(1, 5)
+(7, -1)
+(1, 5)   ← appears again because 5 appears twice
+```
+
 ## Table of Contents
 
 - [Concept Files](#concept-files)
-  - [01.cpp](1_Variables_Datatypes_Operators/Concept/01.cpp)
-  - [02.cpp](1_Variables_Datatypes_Operators/Concept/02.cpp)
-- [Questions](#questions)
-  - [Qs1.cpp](1_Variables_Datatypes_Operators/Questions/Qs1.cpp)
-  - [Qs2.cpp](1_Variables_Datatypes_Operators/Questions/Qs2.cpp)
-- [Homework](#homework)
-  - [Hw1.cpp](1_Variables_Datatypes_Operators/Homework/Hw1.cpp)
-  - [Hw2.cpp](1_Variables_Datatypes_Operators/Homework/Hw2.cpp)
+  - [01.cpp](/10_Pair_and_Sum//01.cpp)
 
-## Concept Files
-
-- [01.cpp](1_Variables_Datatypes_Operators/Concept/01.cpp)
-- [02.cpp](1_Variables_Datatypes_Operators/Concept/02.cpp)
-
-## Questions
-
-- [Qs1.cpp](1_Variables_Datatypes_Operators/Questions/Qs1.cpp)
-- [Qs2.cpp](1_Variables_Datatypes_Operators/Questions/Qs2.cpp)
-
-## Homework
-
-- [Hw1.cpp](1_Variables_Datatypes_Operators/Homework/Hw1.cpp)
-- [Hw2.cpp](1_Variables_Datatypes_Operators/Homework/Hw2.cpp)

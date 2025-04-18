@@ -43,6 +43,7 @@ Welcome to my Data Structures and Algorithms (DSA) repository! This repository c
   - [35. String Compression Problem](Docs/README35.md)
   - [36. Maths for DSA](Docs/README36.md)
   - [37. 2D Arrays](Docs/README37.md)
+  - [38. Search a 2D Matrix](/Docs/)
 - [Contributing](Docs/Contributing.md)
 - [License](#license)
 
