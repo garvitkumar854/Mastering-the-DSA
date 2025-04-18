@@ -16,4 +16,4 @@ For example, in `[1, 2, 3, 4]`, valid subarrays include:
 
 ## Table of Contents
 - [Concept Files](#concept-files)
-  - [01.cpp](//09_Maximum_SubArray_Sum/01.cpp)
+  - [01.cpp](/09_Maximum_SubArray_Sum/01.cpp)
