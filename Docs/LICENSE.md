@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2024 Garvit Kumar
+Copyright (c) 2025 Garvit Kumar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this content and associated documentation files (the "Content"), to deal
