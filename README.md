@@ -69,5 +69,3 @@ Copyright © 2025 Garvit Kumar.
 You are free to use, modify, and distribute the content in this repository for personal or commercial purposes, provided that proper credit is given to the original author.  
 
 For more details, refer to the [LICENSE](Docs/LICENSE.md) file in this repository.
-
-
