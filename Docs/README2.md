@@ -1,15 +1,33 @@
-# 2. Conditional Statements And Loops
+# 2. Conditional Statements and Loops
 
-This folder focuses on two core concepts in programming: Conditional Statements and Loops, which are key to controlling the flow of a program. Conditional Statements, such as if, else, and switch, allow the program to make decisions based on certain conditions, enabling dynamic behavior. You'll learn how to implement logic to execute different actions depending on whether a condition is true or false. Loops, including for, while, and do-while, are essential for repeating a block of code multiple times under certain conditions, helping to reduce redundancy and make code more efficient. Mastering these concepts will provide you with the ability to control program execution and iterate over data, which is fundamental for solving complex problems and creating functional software.
+This folder focuses on two fundamental pillars of programming: **Conditional Statements** and **Loops**, both essential for controlling the flow of a program.
 
-## Table of Contents
+You’ll learn:
+- How to make **decisions** in your code using `if`, `else if`, `else`, and `switch` statements.
+- How to write **efficient loops** using `for`, `while`, and `do-while` to execute code repeatedly under specific conditions.
+- How to simplify conditional logic with the **ternary operator**.
 
-- [Concept Files](#concept-files)
-  - [If - else if - else](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/01.cpp)
-  - [Ternary Statement](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/02.cpp)
-  - [Loops](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/03.cpp)
-- [Questions](#questions)
-  - [Qs1.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/Qs1.cpp)
-  - [Qs2.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/Qs2.cpp)
-  - [Qs3.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/Qs3.cpp)
-  - [Qs4.cpp](https://github.com/GarvitKumar854/Mastering-the-DSA/blob/main/02_CoditionalStatements%26Loops/Qs4.cpp)
+Mastering these concepts enables you to solve complex problems through structured logic, reduce code redundancy, and enhance your code’s efficiency.
+
+---
+
+## 📘 Table of Contents
+
+### 📚 Concept Files
+
+- [🔀 If - else if - else](/02_CoditionalStatements%26Loops/01.cpp)
+- [⚖️ Ternary Statement](/02_CoditionalStatements%26Loops/02.cpp)
+- [🔁 Loops (for, while, do-while)](/02_CoditionalStatements%26Loops/03.cpp)
+
+---
+
+### 💡 Questions
+
+- [Qs1.cpp (Simple Conditions)](/02_CoditionalStatements%26Loops/Qs1.cpp)
+- [Qs2.cpp (Nested Conditions)](/02_CoditionalStatements%26Loops/Qs2.cpp)
+- [Qs3.cpp (Loop-Based Problems)](/02_CoditionalStatements%26Loops/Qs3.cpp)
+- [Qs4.cpp (Logic Challenges)](/02_CoditionalStatements%26Loops/Qs4.cpp)
+
+---
+
+> ✅ Practicing these will build your logic flow and help solve patterns, number series, and condition-based coding challenges with ease.
